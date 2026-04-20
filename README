@@ -1,0 +1,4 @@
+Trong mỗi file mã nguồn, mã được chia làm 2 phần rõ rệt:
+
+1. **Phần Logic & Bắt lỗi:** Các hàm xử lý thuật toán luôn đi kèm với khối lệnh `try...except` để bắt lỗi ngoại lệ (người dùng nhập chữ thay vì số) và các lệnh `if` để chặn dữ liệu sai logic toán học (ví dụ: cạnh hình chữ nhật âm).
+2. **Phần Thực thi Test Case (Kịch bản kiểm thử):** Nằm ở cuối mỗi file, sử dụng lệnh `print()` để truyền sẵn các bộ dữ liệu thử nghiệm, bao quát đủ các kỹ thuật hộp đen: Phân lớp tương đương và Phân tích giá trị biên.
